@@ -1,0 +1,76 @@
+* {
+    font-family: 'Scheherazade New', serif;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentContainer {
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.header {
+    margin-top: 60px;
+    max-height: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+
+#input {
+    font-size: 18px;
+    width: 80%;
+    margin: 20px 10px;
+    margin-left: 60px;
+}
+
+
+.addbtn {
+    font-size: 18px;
+    height: 1.4rem;
+    width: 2%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.addbtn:hover {
+    background-color: #bbb;
+    color: #fff;
+}
+
+.mylist {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: black;
+    width: 30%;
+}
+
+ul {
+    font-size: 20px;
+}
+
+ul>li:nth-of-type(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background-color: #ddd;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
